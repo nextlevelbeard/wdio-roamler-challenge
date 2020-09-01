@@ -1,11 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run Scenario locally @ Android" type="js.build_tools.npm">
+  <configuration default="false" name="Run Feature on BrowserStack @ Android" type="js.build_tools.npm">
     <package-json value="$PROJECT_DIR$/package.json" />
     <command value="run" />
     <scripts>
-      <script value="test:e2e:local" />
+      <script value="test:e2e:bs" />
     </scripts>
-    <arguments value="-- --browserName Android --spec $ContentRoot$/$FilePathRelativeToProjectRoot$:$LineNumber$" />
+    <arguments value="-- --browserName Android --spec $ContentRoot$/$FilePathRelativeToProjectRoot$" />
     <node-interpreter value="node" />
     <envs />
     <method v="2" />
