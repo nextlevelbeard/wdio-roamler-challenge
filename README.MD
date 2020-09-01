@@ -63,7 +63,13 @@ For specfic Scenarios, in the `--spec` file passed, add the line number of the S
 npm run test:e2e -- --spec tests/e2e/features/TaskSearch.feature:6
 ```
 
-If you want to specify which device (and this is valid for all test run options) use `--deviceName` as such:
+To run the test locally you'll need:
+- To have everything in place to run appium. Get `appium-doctor` with `npm install appium-doctor` and take care of it.
+- A local Android device USB-connected to the device running the test.
+- Google's `Photos` app installed on the device.
+
+To run the test on BrowserStack you'll need:
+- To define `BROWSER_STACK_USER` and `BROWSER_STACK_PSW`
 
 ## Reporting
 
